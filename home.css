@@ -1,0 +1,132 @@
+body {font-family: Georgia, "Times New Roman", serif;
+	color: #000;
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+	}
+	
+#container	{background-image: url("houses.jpeg");
+			background-size: width height;
+			background-repeat: no-repeat;
+			text-align: center;
+			}
+		
+header {font-family: Verdana, Geneva, sans-serif;
+		color: inherit;
+		background-color: #68373A;
+		padding: 0;
+		opacity: .80;
+		}
+
+.left	{
+		}
+
+.right	{position: relative;
+		top: 0;
+		margin-left: auto;
+		vertical-align: top;
+		margin-right: 20px;
+		width: 20px;
+		position: absolute;
+		right: 60%
+		}
+			
+#logos	{white-space: nowrap;
+		color: inherit;
+		display: table;
+		}
+
+#logos > div {}
+		
+#links	{text-align: center;
+		width: 100%;
+		margin-left: auto;
+		margin-right: 50px;
+		position: absolute;
+		right: 150%}
+		
+nav {position: relative;
+	bottom: 0px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width: 0px;
+	}
+
+nav a 	{position: relative;
+		bottom: 0px;
+		font-family: "Century Gothic", Candara, sans-serif;
+		font-weight: 100;
+		text-decoration: none;
+		padding: 5px 50px 5px 50px;
+		font-size: large;
+		}
+		
+nav a:link {color: #fff;
+			background-color: inherit;
+			}
+			
+nav a:visited 	{color: #fff;
+				background-color: inherit;
+				}
+				
+nav a:hover {color: #376843;
+			background-color: #inherit;
+			}
+			
+nav a:active 	{color: #3BB459;
+				background-color: #inherit;
+				}
+				
+nav ul {list-style: none;
+		}
+
+nav li {display: inline;
+		}
+		
+.icon img	{padding-bottom: -500px;}
+
+#content	{font-family: georgia, "book antiqua", serif;
+			margin-top: 0;
+			background-color: #fff;
+			text-align: center;}
+
+h1 {color: #376843;
+	background-color: inherit;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	font-family: "Century Gothic", Candara, sans-serif;
+	font-size: 300%;
+	margin-bottom: 0;
+	}
+
+h2 {color: inherit;
+	background-color: inherit;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	font-family: "Century Gothic", Candara, sans-serif;
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+
+h4 {color: inherit;
+	background-color: inherit;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	padding-top: -15px;
+	margin-top: 0px;
+	font-family: "Century Gothic", Candara, sans-serif;
+	}
+		
+main img{float: left;
+		padding-left: 20px;}
+		
+footer {color: #000;
+		background-color: #fff;
+		font-size: x-small;}
