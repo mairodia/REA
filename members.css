@@ -116,10 +116,24 @@ main img{float: left;
 		padding-left: 5px;
 		vertical-align: top;
 		padding-left: 5px;
-		width: 350px;
+		width: 650px;
 		padding-right: 20px;
 		padding-top: 0;
 		margin-top: 0;}
+
+td	{padding-bottom: 2%;}
+
+hr	{color: #376843;
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+	
+h2	{color: #376843;
+	margin-bottom: 0;
+	text-align: left;
+	font-family: "Century Gothic", Candara, sans-serif;
+	font-size: 180%;
+	}
 		
 h3	{color: #376843;
 	margin-bottom: 0;
@@ -132,3 +146,38 @@ h5	{margin-top: 0;
 	margin-bottom: 0;
 	line-height: 0;
 	}	
+	
+#email 	{color: #376843;
+		font-weight: bold;
+		/*font-family: "Lucida Console", "MS Sans Serif", sans-serif;*/
+		font-family: "Century Gothic", Candara, sans-serif;
+		font-size: 90%;
+		text-decoration: none;}
+		
+#email:hover	{color: #53B484;
+				background-color: inherit;}
+		
+#members	{text-align: center;
+			margin-left: auto;
+			margin-right: auto;
+			width: 80%;}
+			
+footer {color: #376843;
+	text-align: center;
+	font-size: small;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	font-family: "Century Gothic", Candara, sans-serif;
+	font-weight: bold;
+	padding: 5px;
+	margin-bottom: 1%;
+	}
+	
+footer a	{text-decoration: none;
+			color: inherit;
+			background-color: inherit;
+			}
+
+footer a:hover	{color: #53B484;
+				background-color: inherit;}
