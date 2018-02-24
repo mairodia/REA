@@ -5,11 +5,17 @@ body {font-family: Georgia, "Times New Roman", serif;
 	padding: 0;
 	}
 	
-#container	{background-image: url("houses.jpeg");
+#container	{background-image: url("housea.jpeg");
 			background-size: width height;
 			background-repeat: no-repeat;
 			text-align: center;
 			}
+			
+#text	{text-align: center;
+		margin-left: 5%;
+		margin-right: 5%;
+		font-size: 180%;
+		}
 		
 header {font-family: Verdana, Geneva, sans-serif;
 		color: inherit;
@@ -90,6 +96,9 @@ nav li {display: inline;
 			margin-top: 0;
 			background-color: #fff;
 			text-align: center;}
+			
+hr	{color: #376843;
+			}
 
 h1 {color: #376843;
 	background-color: inherit;
@@ -98,7 +107,7 @@ h1 {color: #376843;
 	margin-right: auto;
 	width: 90%;
 	font-family: "Century Gothic", Candara, sans-serif;
-	font-size: 300%;
+	font-size: 400%;
 	margin-bottom: 0;
 	}
 
@@ -111,6 +120,7 @@ h2 {color: inherit;
 	font-family: "Century Gothic", Candara, sans-serif;
 	margin-top: 0;
 	margin-bottom: 0;
+	font-size: 250%;
 	}
 
 h4 {color: inherit;
@@ -122,11 +132,28 @@ h4 {color: inherit;
 	padding-top: -15px;
 	margin-top: 0px;
 	font-family: "Century Gothic", Candara, sans-serif;
+	font-size: 200%;
 	}
 		
 main img{float: left;
 		padding-left: 20px;}
 		
-footer {color: #000;
-		background-color: #fff;
-		font-size: x-small;}
+footer {color: #376843;
+	text-align: center;
+	font-size: small;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	font-family: "Century Gothic", Candara, sans-serif;
+	font-weight: bold;
+	padding: 5px;
+	margin-bottom: 1%;
+	}
+	
+footer a	{text-decoration: none;
+			color: inherit;
+			background-color: inherit;
+			}
+
+footer a:hover	{color: #53B484;
+				background-color: inherit;}
