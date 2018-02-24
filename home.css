@@ -5,7 +5,7 @@ body {font-family: Georgia, "Times New Roman", serif;
 	padding: 0;
 	}
 	
-#container	{background-image: url("housea.jpeg");
+#container	{background-image: url("houses.jpeg");
 			background-size: width height;
 			background-repeat: no-repeat;
 			text-align: center;
@@ -14,7 +14,7 @@ body {font-family: Georgia, "Times New Roman", serif;
 #text	{text-align: center;
 		margin-left: 5%;
 		margin-right: 5%;
-		font-size: 180%;
+		font-size: 100%;
 		}
 		
 header {font-family: Verdana, Geneva, sans-serif;
@@ -24,8 +24,6 @@ header {font-family: Verdana, Geneva, sans-serif;
 		opacity: .80;
 		}
 
-.left	{
-		}
 
 .right	{position: relative;
 		top: 0;
@@ -107,11 +105,11 @@ h1 {color: #376843;
 	margin-right: auto;
 	width: 90%;
 	font-family: "Century Gothic", Candara, sans-serif;
-	font-size: 400%;
+	font-size: 300%;
 	margin-bottom: 0;
 	}
 
-h2 {color: inherit;
+h2 {color: #684945;
 	background-color: inherit;
 	text-align: center;
 	margin-left: auto;
@@ -120,20 +118,59 @@ h2 {color: inherit;
 	font-family: "Century Gothic", Candara, sans-serif;
 	margin-top: 0;
 	margin-bottom: 0;
-	font-size: 250%;
+	font-size: 180%;
 	}
 
-h4 {color: inherit;
-	background-color: inherit;
-	text-align: center;
+h3	{color: #376843;
+	margin-bottom: 0;
+	margin-top: 10px;
+	padding-top: 10px;
+	line-height: 0;
+	font-size: 150%;}
+
+h4 {text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	width: 90%;
 	padding-top: -15px;
 	margin-top: 0px;
 	font-family: "Century Gothic", Candara, sans-serif;
-	font-size: 200%;
+	font-size: 100%;
 	}
+	
+#vision	{width: 85%;
+		text-align: center;
+		font-size: 150%;
+		margin-right: 5%;
+		margin-left: 5%;
+		margin-top: 0;}
+
+#left	{width: 80%;
+		text-align: left;
+		font-size: 120%;
+		padding-right: 8%;}
+		
+#right	{/*text-align: center;
+		padding: 5px;}*/
+		color: inherit;
+		background-color: inherit;
+		border-style: solid;
+		border-width: 2px;
+		border-color: #376843;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		padding: 5px;
+		margin-top: 0;
+		}
+
+#right a 	{text-decoration: none;
+			color: #376843;
+			background-color: inherit;}
+
+#right a:hover	{color: #53B484;
+				background-color: inherit;}			
 		
 main img{float: left;
 		padding-left: 20px;}
