@@ -97,7 +97,17 @@ nav li {display: inline;
 #content	{font-family: georgia, "book antiqua", serif;
 			margin-top: 0;
 			background-color: #fff;
-			text-align: center;}
+			text-align: center;
+			}
+			
+.slideshow	{width: 50%;
+			text-align: center;
+			margin: auto;
+			position: relative;}
+			
+.button	{position: absolute;
+		top: 45%;
+		left: 0;}
 			
 hr	{color: #376843;
 			}
@@ -118,7 +128,6 @@ h2 {color: #684945;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	width: 90%;
 	font-family: "Century Gothic", Candara, sans-serif;
 	margin-top: 0;
 	margin-bottom: 0;
@@ -135,7 +144,6 @@ h3	{color: #376843;
 h4 {text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	width: 90%;
 	padding-top: -15px;
 	margin-top: 0px;
 	font-family: "Century Gothic", Candara, sans-serif;
@@ -145,13 +153,13 @@ h4 {text-align: center;
 #vision	{width: 85%;
 		text-align: center;
 		font-size: 150%;
-		margin-right: 5%;
-		margin-left: 5%;
 		margin-top: 0;
+		margin-left: 9%;
+		margin-right: 5%;
 		color: #fff;
 		}
 		
-#statement	{margin-right: -10%;
+#statement	{margin-right: -5.5%;
 			margin-left: -10%;
 			padding-top: 1%;
 			padding-bottom: .5%;
@@ -160,7 +168,8 @@ h4 {text-align: center;
 #left	{width: 80%;
 		text-align: left;
 		font-size: 120%;
-		padding-right: 8%;}
+		padding-right: 20px;
+		}
 		
 #right	{/*text-align: center;
 		padding: 5px;}*/
