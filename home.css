@@ -29,10 +29,10 @@ header {font-family: Verdana, Geneva, sans-serif;
 		top: 0;
 		margin-left: auto;
 		vertical-align: top;
-		margin-right: 20px;
+		margin-right: 0;
 		width: 20px;
 		position: absolute;
-		right: 60%
+		right: 60%;
 		}
 			
 #logos	{white-space: nowrap;
@@ -87,6 +87,10 @@ nav ul {list-style: none;
 
 nav li {display: inline;
 		}
+		
+#sponsor	{padding-left: 10px;
+			padding-bottom: 10px;
+			}
 		
 .icon img	{padding-bottom: -500px;}
 
@@ -143,7 +147,15 @@ h4 {text-align: center;
 		font-size: 150%;
 		margin-right: 5%;
 		margin-left: 5%;
-		margin-top: 0;}
+		margin-top: 0;
+		color: #fff;
+		}
+		
+#statement	{margin-right: -10%;
+			margin-left: -10%;
+			padding-top: 1%;
+			padding-bottom: .5%;
+			background-color: #53B484;}
 
 #left	{width: 80%;
 		text-align: left;
@@ -164,6 +176,8 @@ h4 {text-align: center;
 		padding: 5px;
 		margin-top: 0;
 		}
+
+#members	{padding-bottom: 5px;}
 
 #right a 	{text-decoration: none;
 			color: #376843;
