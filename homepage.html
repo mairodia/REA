@@ -38,8 +38,38 @@
 			<br>
 			<div id="text">
 			<div id="statement">
-			<p id="vision" align="center">The vision of the Cal Poly Real Estate Association is to serve as an active, well respected hub of students, faculty, alumni, and professionals who are committed to furthering the quality of real estate education. The organization creates learning and networking opportunities that help students prepare for careers in the real estate industry and provides a strong business network for industry participants.</p>
+			<p id="vision">The vision of the Cal Poly Real Estate Association is to serve as an active, well respected hub of students, faculty, alumni, and professionals who are committed to furthering the quality of real estate education. The organization creates learning and networking opportunities that help students prepare for careers in the real estate industry and provides a strong business network for industry participants.</p>
 			</div>
+			<br>
+			<!--<img class="mySlides" src="slide1.JPG">
+			<img class="mySlides" src="slide2.jpg">
+			<img class="mySlides" src="slide3.jpeg">
+			<img class="mySlides" src="slide4.JPG">-->
+
+			<div class="slideshow" align="center">
+			<img class="mySlides" src="slide1.JPG" style="width:100%">
+			<img class="mySlides" src="slide2.jpg" style="width:100%">
+			<img class="mySlides" src="slide3.jpeg" style="width:100%">
+			<img class="mySlides" src="slide4.JPG" style="width:100%">
+			</div>
+			
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3000); // Change image every 3 seconds
+}
+</script>
 			<br>
 			<table>
 				<tbody>
