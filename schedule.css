@@ -1,197 +1,116 @@
-body {font-family: Georgia, "Times New Roman", serif;
-	color: #000;
-	background-color: #fff;
-	margin: 0;
-	padding: 0;
-	}
+<!doctype html>
+<head>
+	<meta charset = "utf-8">
+	<meta name="robots" content="noindex,nofollow">
+	<meta name="author" content="Jennifer King">
+	<title>CPP REA Home Page</title>
+	<link rel="stylesheet" href="schedule.css">
+</head>
+<body>
+<div id="container">
+	<header>
+		<div id="logos">
+			<div class="left">
+			<img src="rea logo2.png" alt="REA" width="150" height="150"><a href="http://www.moorerealestategroup.com/home/index.asp"><img id="sponsor" width="150" height="45" src="moore.png" alt="Moore Real Estate Group"></a></div><!-- comment to close gap
+			--><div class="right"><!-- comment to close gap
+			--><img style="vertical-align:middle" src="rea.png" alt="Real Estate Association | California State Polytechnic University, Pomona">
+			
+			<div id="links">
+				<nav>
+				<ul>
+					<li><a href="index.html"><b>HOME</b></a></li>
+					<li><a href="members.html"><b>MEMBERS</b></a></li>
+					<li><a href="schedule.html"><b>SCHEDULE</b></a></li>
+				</ul>
+				</nav>
+			</div>
+			</div>
+		</div>
+	</header>
+	<main> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><a href="https://www.facebook.com/CPPrea"><img src="fb.png" alt="Go the the REA Facebook page."></a>&nbsp;<a href="https://www.linkedin.com/groups/7057017/profile"><img src="lin.png" alt="Go to the REA Linked In page." width="55" height="55"></a><br><br><br><br>
+</div>	
 	
-#container	{background-image: url("houses.jpeg");
-			background-size: width height;
-			background-repeat: no-repeat;
-			text-align: center;
-			}
-			
-#text	{text-align: center;
-		margin-left: 5%;
-		margin-right: 5%;
-		font-size: 100%;
-		}
-		
-header {font-family: Verdana, Geneva, sans-serif;
-		color: inherit;
-		background-color: #68373A;
-		padding: 0;
-		opacity: .80;
-		}
-
-
-.right	{position: relative;
-		top: 0;
-		margin-left: auto;
-		vertical-align: top;
-		margin-right: 0;
-		width: 20px;
-		position: absolute;
-		right: 60%
-		}
-			
-#logos	{white-space: nowrap;
-		color: inherit;
-		display: table;
-		}
-
-#logos > div {}
-		
-#links	{text-align: center;
-		width: 100%;
-		margin-left: auto;
-		margin-right: 50px;
-		position: absolute;
-		right: 150%}
-		
-nav {position: relative;
-	bottom: 0px;
-	text-align: center;
-	margin-right: auto;
-	margin-left: auto;
-	width: 0px;
-	}
-
-nav a 	{position: relative;
-		bottom: 0px;
-		font-family: "Century Gothic", Candara, sans-serif;
-		font-weight: 100;
-		text-decoration: none;
-		padding: 5px 50px 5px 50px;
-		font-size: large;
-		}
-		
-nav a:link {color: #fff;
-			background-color: inherit;
-			}
-			
-nav a:visited 	{color: #fff;
-				background-color: inherit;
-				}
+	<div id="content">
+		<h1>Schedule</h1>
+		<br>
+		<table>
+		<tbody>
+		<tr>
+		<td id="left">
+		<h2><u>Upcoming Events</u></h2>
+		<ul>
+			<li><h3>May 18th</h3>
+				<h5><u>CBARN Event:</u> Recognition Night</h5>
+				<h5 id="multiple">Deadline to sign up for Alumni Gathering.</h5></li>
+			<li><h3>May 22nd</h3>
+				<h5><u>Guest Speaker:</u> Greg Bindell, Progressive Real Estate Partners</h5></li>
+			<li><h3>June 1st 2018</h3>
+				<h5><u>Alumni Gathering:</u> Mountain Meadows Golf Course</h5>
+				<h5 id="multiple">Last meeting of the quarter</h5></li>
+		</ul>
 				
-nav a:hover {color: #376843;
-			background-color: #inherit;
-			}
+		</td>
+		<td id="right">
+		<h2><u>Past Events</u></h2>
+		<ul>
+			<li><h3>May 15th 2018</h3>
+				<h5><u>Guest Speaker:</u> Chris Johnson, Lee & Associates</h5>
+				<h5 id="multiple"><u>Recruiting:</u> Lee & Associates</h5></li>
+			<li><h3>May 8th 2018</h3>
+				<h5><u>Guest Speaker:</u> Sandra Vonn, CPP Property Manager</h5></li>
+			<li><h3>May 1st 2018</h3>
+				<h5>Elections for 2018-2019 E-Board</h5></li>
+			<li><h3>April 19th 2018</h3>
+				<h5>Alumni Panel</h5>
+			<li><h3>April 17th 2018</h3>
+				<h5>General Meeting</h5>
+			<li><h3>April 8th 2018</h3>
+				<h5>Argus Training</h5></li>
+			<li><h3>April 7th 2018</h3>
+				<h5>Argus Training</h5></li>
+			<li><h3>April 5th 2018</h3>
+				<h5>General Meeting</h5></li>
+			<li><h3>March 15th 2018</h3>
+				<h5>Economics Summit</h5></li>
+			<li><h3>March 8th 2018</h3>
+				<h5><u>Guest Speaker:</u> Joy Howard from Joy Realty</h5></li>
+			<li><h3>March 1st 2018</h3>
+				<h5><u>Guest Speaker:</u> Michael Battaglia from Cal Atlantic Homes</h5></li>
+			<li><h3>Feb 23rd 2018</h3>
+				<h5>Alumni Mixer</h5></li>
+<!--			<li><h3>Feb 22nd 2018</h3>
+				<h5>Joint Event with PSE</h5>
+				<h5 id="indent"><u>Guest Speaker:</u> Charles Thomas from Innovista Realty 7PM</h5>
+				<h5 id="multiple">Joint Event with Economics Club</h5>
+				<h5 id="indent"><u>Guest Speaker:</u> Gregory Mankiw from Harvard University</h5></li>
+			<li><h3>Feb 15th 2018</h3>
+				<h5><u>Guest Speaker:</u> Artem Tepler from Schon Tepler</h5></li>
+			<li><h3>Feb 9th 2018</h3>
+				<h5>CFA Research Challenge at Chapman University</h5><li>
+			<li><h3>Feb 8th 2018</h3>
+				<h5><u>Guest Speaker:</u> Sam and Nancy Castorena from Pinnacle Capital Mortgage</h5></li>
+			<li><h3>Jan 27th 2018</h3>
+				<h5><u>Field Trip:</u> Rockport Health Care Headquarters</li>
+			<li><h3>Jan 19th 2018</h3>
+				<h5>General Meeting</h5> 
+				<h5 id="multiple">CPP CFA Team Presentation</h5>
+				<h5 id="multiple">Joint Meeting with Finance Society</h5></li>
+			<li><h3>Jan 18th 2018</h3>
+				<h5><u>Guest Speaker:</u> Ante Perkov from Cap West Real Estate</h5></li>
+			<li><h3>Jan 11th 2018</h3>
+				<h5>First General Meeting of Winter Quarter</h5>
+				<h5 id="multiple">Argus Servey</h5></li> -->
+		</ul>
+		</td>
+		</tr>
+		</tbody>
+		</table>
+		<br>
+
 			
-nav a:active 	{color: #3BB459;
-				background-color: #inherit;
-				}
-				
-nav ul {list-style: none;
-		}
-
-nav li {display: inline;
-		}
-		
-#sponsor	{padding-left: 10px;
-			padding-bottom: 10px;
-			}
-		
-.icon img	{padding-bottom: -500px;}
-
-#content	{font-family: georgia, "book antiqua", serif;
-			margin-top: 0;
-			background-color: #fff;
-			text-align: center;
-			padding-top: 0;
-			padding-left: 25px;
-			}
-
-main img{float: left;
-		padding-left: 20px;
-		}
-			
-h1 {color: #376843;
-	background-color: inherit;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	width: 90%;
-	font-family: "Century Gothic", Candara, sans-serif;
-	font-size: 300%;
-	margin-bottom: 0;
-	padding-top: 0;
-	}
-
-hr	{color: #376843;
-	margin-top: 0;
-	margin-bottom: 0;
-	}
-	
-h2	{color: #376843;
-	margin-bottom: 0;
-	font-family: "Century Gothic", Candara, sans-serif;
-	font-size: 180%;
-	}
-		
-h3	{color: #376843;
-	margin-top: 0;
-	margin-bottom: 10px;
-	line-height: 0;
-	}
-		
-h5	{color: #684945;
-	margin-top: 0;
-	margin-bottom: 20px;
-	font-size: 100%;
-	padding-left: 20px;
-	}
-	
-table	{width: 100%;
-		margin-left: auto;
-		margin-right: auto;
-		text-align: center;
-		padding-left: 20%;
-		padding-right: 20%;
-		border-top: 2px solid #376843;}
-
-td	{vertical-align: top;
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 10%;
-	width: 20%;}
-	
-#left{border-right: 2px solid #376843;
-	text-align: right;
-	}
-	
-#left h2{text-align: left;}
-	
-#right{
-	border-left: 2px solid #376843;
-	text-align: left;
-	}
-	
-#indent	{color: #8C706B;
-		margin-top: -20px;
-		margin-left: 30px;}
-		
-#multiple	{margin-top: -15px;}
-
-#content ul	{list-style: none;
-			text-align: left;}	
-	
-footer {color: #376843;
-	text-align: center;
-	font-size: small;
-	margin-left: auto;
-	margin-right: auto;
-	width: 500px;
-	font-family: "Century Gothic", Candara, sans-serif;
-	font-weight: bold;
-	padding: 5px;
-	margin-bottom: 1%;
-	}
-	
-footer a	{text-decoration: none;
-			color: inherit;
-			background-color: inherit;
-			}
-
-footer a:hover	{color: #53B484;
-				background-color: inherit;}
+	<footer>
+		Icons made by <a href="https://www.flaticon.com/authors/linh-pham" title="Linh Pham">Linh Pham</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></br>
+		Copyright © CPPREA 2018. All rights reserved. Website created by Jennifer King.
+	</footer>
+</body>
+</html>
